@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin './Hero.js';
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *));
+
+.swal-custom-file {
+  width: 100% !important; 
+  height: 45px; 
+  box-sizing: border-box;
+  padding: 4px; 
+  background-color: #f1f5f9;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.swal-custom-file::file-selector-button {
+  height: 100%; 
+  margin-right: 12px;
+  border: none;
+  background: #334155;
+  padding: 0 20px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.swal-custom-file::file-selector-button:hover {
+  background: #1f2937;
+}
