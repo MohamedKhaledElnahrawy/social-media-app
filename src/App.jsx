@@ -11,7 +11,7 @@ import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import AuthProtectedRoute from "./components/AuthProtectedRoute/AuthProtectedRoute";
 import SettingPage from "./pages/SettingPage";
 import { Toaster } from "react-hot-toast";
-import FollowersPage from "./pages/follwersPage";
+import FollowersPage from "./pages/FollowersPage";
 import UserProfile from "./pages/userProfile";
 import NotFoundPage from "./pages/NotFoundPage";
 
