@@ -106,7 +106,7 @@ export default function FollowersPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {data?.pages?.map((page, index) => (
           <React.Fragment key={index}>
-            {page.data.suggestions.map((user: any) => (
+            {page.data.suggestions.map((user) => (
               <Card
                 key={user._id}
                 className="p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
