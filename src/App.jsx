@@ -12,7 +12,7 @@ import AuthProtectedRoute from "./components/AuthProtectedRoute/AuthProtectedRou
 import SettingPage from "./pages/SettingPage";
 import { Toaster } from "react-hot-toast";
 import FollowersPage from "./pages/FollowersPage";
-import UserProfile from "./pages/userProfile";
+import UserProfile from "./pages/UserProfile";
 import NotFoundPage from "./pages/NotFoundPage";
 
 export default function App() {
